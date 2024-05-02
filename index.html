@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>DASHBOARD</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo"><h2>DASHBOARD</h2></div>
+      <div class="menu_toogler"><i class="fa-solid fa-bars"></i></div>
+      <div class="toogle">
+        <div class="close_container">
+          <div class="close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="buttons_operation">
+          <button class="crud btns_hm">CRUD</button>
+          <button class="http btns_hm">HTTP REQ</button>
+          <button class="middle btns_hm">MIDDLEWARE</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+    		<div class="header">
+                <div class="process">
+    			<button class="button">ADD NEW</button>
+        		<button class="button">EXPORT</button>
+            </div>
+                <div class="search">
+        			<input type="text" class="search-bar" placeholder="Search Last name">
+        			<button class="button">Results</button>
+                </div>
+        		</div>
+        	</div>
+
+    <div class="data">
+        <div class="data_header">
+            <table>
+                <tr>
+                    <th>Action</th>
+                    <th>Customer Id</th>
+                    <th>Name</th>
+                    <th>Phone No</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td class="actn">
+                       <button class="btns"><a href=""> <i class="fas fa-edit"></i></a></button>
+                      <button class="btns"> <a href=""> <i class="fa-solid fa-trash"></i></a> </button>
+                        <button class="btns"><a href=""><i class="fa-solid fa-plus"></i></a> </button>
+                    </td>
+                    <td>1</td>
+                    <td>hafiz al asad khan</td>
+                    <td>01645272591</td>
+                    <td>hkkhan074@gmail.com</td>
+                </tr>
+                <tr>
+                    <td class="actn">
+                       <button class="btns"><a href=""> <i class="fas fa-edit"></i></a></button>
+                       <button class="btns"> <a href=""> <i class="fa-solid fa-trash"></i></a> </button>
+                        <button class="btns"> <a href=""><i class="fa-solid fa-plus"></i></a> </button>
+                    </td>
+                    <td>2</td>
+                    <td>samir</td>
+                    <td>01771008468</td>
+                    <td>hkkhan074@gmail.com</td>
+                </tr>
+                <tr>
+                    <td class="actn">
+                       <button class="btns"><a href=""> <i class="fas fa-edit"></i></a></button>
+                      <button class="btns"> <a href=""> <i class="fa-solid fa-trash"></i></a> </button>
+                        <button class="btns"><a href=""><i class="fa-solid fa-plus"></i></a> </button>
+                    </td>
+                    <td>3</td>
+                    <td>rokib</td>
+                    <td>01627603243</td>
+                    <td>hkkhan074@gmail.com</td>
+                </tr>
+            </table>
+        </div>
+        <div class="table_data">
+            <!-- <div class="action">
+                <i class="fas fa-edit"></i>
+                <i class="fa-solid fa-trash"></i>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="customer_id">
+                <p>21</p>
+            </div>
+            <div class="name">
+                <p>Hafiz Al Asad</p>
+            </div>
+            <div class="phone">
+                <p>+8801645272591</p>
+            </div> -->
+            <!-- <div class="email">hkkhan074@gmail.com</div> -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
